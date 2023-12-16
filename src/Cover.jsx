@@ -8,7 +8,7 @@ const Cover = ({ onOpenInvitation }) => {
       alignItems="center"
       sx={{ height: "100vh", background: "#f8f7f390" }}
     >
-      <Typography variant="h6">The Wedding of</Typography>
+      <Typography variant="h6">THE WEDDING OF</Typography>
       <Typography
         variant="h1"
         sx={{ fontFamily: "'Satisfy', cursive" }}
@@ -16,7 +16,7 @@ const Cover = ({ onOpenInvitation }) => {
       >
         Risca & Estu
       </Typography>
-      <Typography variant="h6">Minggu, 24 Desember 2023</Typography>
+      <Typography variant="h6">24 DESEMBER 2023</Typography>
       <Button
         variant="outlined"
         sx={{ color: "#765830", borderColor: "#765830" }}

@@ -1,7 +1,8 @@
 import { useRef } from "react";
 import Cover from "./Cover";
 import Message from "./Message";
-import { Box } from "@mui/material";
+import { Box, Stack } from "@mui/material";
+import Arrum from "./Arrum";
 
 function App() {
   const messageRef = useRef();
@@ -14,12 +15,13 @@ function App() {
   };
 
   return (
-    <>
+    <Stack alignItems="center" justifyContent="center">
       <Cover onOpenInvitation={onOpenInvitation} />
       <Box ref={messageRef}>
-        <Message />
+        <Arrum />
       </Box>
-    </>
+      <Message />
+    </Stack>
   );
 }
 
