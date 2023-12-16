@@ -8,6 +8,7 @@ const Message = () => {
       alignItems="flex-start"
       sx={{
         height: "100vh",
+        minWidth: "90vw",
         background: "#f8f7f3",
         margin: "auto",
       }}
